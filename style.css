@@ -1,0 +1,95 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 20px 0 10px 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #0099ff;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
+
+/* Profile photo */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+/* Skills table */
+table td:first-child {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+table td:nth-child(3) {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Rating input */
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #0099ff;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #0099ff;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background-color: #0099ff;
+  cursor: pointer;
+}
+
